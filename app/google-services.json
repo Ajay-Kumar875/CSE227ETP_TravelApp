@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81542079560",
+    "project_id": "cse227etp",
+    "storage_bucket": "cse227etp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81542079560:android:ae8d32e01b74fb76abe47d",
+        "android_client_info": {
+          "package_name": "com.example.cse227etp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApd09-VK-QX8o6znKCPC00nwm3euLG-z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

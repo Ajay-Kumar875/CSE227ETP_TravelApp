@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/edittext_custom3">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="340dp"
+                        android:layout_height="400dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:contentDescription="@string/no_image"
+                        android:cropToPadding="true"
+                        android:scrollbarStyle="insideInset"
+                        android:src="@drawable/simg1" />
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="340dp"
+                        android:layout_height="400dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:contentDescription="@string/no_image"
+                        android:src="@drawable/simg2" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="340dp"
+                        android:layout_height="400dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:contentDescription="@string/no_image"
+                        android:src="@drawable/simg3" />
+
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="340dp"
+                        android:layout_height="400dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:contentDescription="@string/no_image"
+                        android:src="@drawable/simg4" />
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="340dp"
+                        android:layout_height="400dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:contentDescription="@string/no_image"
+                        android:src="@drawable/simg5" />
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="340dp"
+                        android:layout_height="400dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:contentDescription="@string/no_image"
+                        android:src="@drawable/simg6" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="2"
+                android:columnCount="3"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:backgroundTint="#DAD8D5"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/btnLoc"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/one1" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Location"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:backgroundTint="#DAD8D5"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/btnCanvas"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/one2" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Canvas"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:backgroundTint="#DAD8D5"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/btnFeed"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/two1" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rate Us"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:backgroundTint="#DAD8D5"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/btnLogout"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/two2" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Logout"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#8B867F"
+                android:layout_margin="15dp"
+                android:textSize="22sp"
+                android:text="     When traveling, people often find themselves in situations that they would never experience at home.
+
+These new experiences require greater reliance on yourself. Forcing oneself into this situation requires great personal strength and fortitude, which builds independence later on down the road when life hits tough times. \n \n
+
+Traveling across borders allows us to break out of our comfort zone by forcing ourselves into unknown surroundings with different cultures than those we are accustomed to at home.
+
+This increased exposure to new cultures and people increases flexibility in how we think because it forces us out of our comfort zone, which consequently allows us the opportunity to learn more about ourselves through this self-growth process."/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="1"/>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

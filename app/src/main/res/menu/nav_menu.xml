@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/baseline_dashboard_24"
+            android:title="Write Journal"/>
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="Locate Me"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_web_stories_24"
+            android:title="My Website"/>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/baseline_feedback_24"
+            android:title="Rate Us"/>
+
+    </group>
+
+</menu>
